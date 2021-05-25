@@ -1,281 +1,1206 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Robert Conrad Portfolio Site</title>
-    <style>
-    </style>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css"
-        integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
-    <link href="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.css" rel="stylesheet"
-        type="text/css">
-    <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
-    <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
-            font-size: 14px;
-            line-height: 1.6;
-        }
-    </style>
-    <style>
-        .task-list-item {
-            list-style-type: none;
-        }
-
-        .task-list-item-checkbox {
-            margin-left: -20px;
-            vertical-align: middle;
-        }
-    </style>
-
-
-
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="A Portfolio Website for Robert Conrad @PirateRoberts98" />
+    <meta name="author" content="PirateRoberts98" />
+    <title>Robert's Portfolio Site</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+        type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
 </head>
 
-<body class="vscode-body vscode-light">
-    <h1 id="robert-conrad-portfolio-site">Robert Conrad Portfolio Site</h1>
-    <p><a href="https://twitter.com/PirateRoberts98"><img
-                src="https://img.shields.io/badge/-@PirateRoberts98-1ca0f1?style=flat-square&amp;labelColor=1ca0f1&amp;logo=twitter&amp;logoColor=white&amp;link=https://twitter.com/PirateRoberts98"
-                alt="Twitter Badge"></a><a href="https://www.linkedin.com/in/PirateRoberts98/"><img
-                src="https://img.shields.io/badge/-PirateRoberts98-blue?style=flat-square&amp;logo=Linkedin&amp;logoColor=white&amp;link=https://www.linkedin.com/in/PirateRoberts98/"
-                alt="Linkedin Badge"></a><a href="https://www.instagram.com/PirateRoberts98/"><img
-                src="https://img.shields.io/badge/-PirateRoberts98-3f729b?style=flat-square&amp;logo=Instagram&amp;logoColor=white&amp;link=https://www.instagram.com/PirateRoberts98/"
-                alt="Instagram Badge"></a><a href="mailto:robert.conrad@ieee.org"><img
-                src="https://img.shields.io/badge/-robert.conrad@ieee.org-c14438?style=flat-square&amp;logo=Gmail&amp;logoColor=white&amp;link=mailto:robert.conrad@ieee.org"
-                alt="Gmail Badge"></a></p>
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#page-top">Robert Conrad</a>
+            <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                            href="#about">About</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                            href="#experience">Experience</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                            href="#projects">Projects</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                            href="#skills">Skills</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                            href="#Hobbies">Hobbies </a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                            href="#Contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Masthead-->
+    <header class="masthead  text-center">
+        <div class="container d-flex align-items-center flex-column">
+            <!-- Masthead Avatar Image-->
+            <img class="masthead-avatar mb-5" src="assets/img/avataaarsme.svg" alt="..." />
+            <!-- Masthead Heading-->
+            <h1 class="masthead-heading text-uppercase mb-0">Welcome to my Website</h1>
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-dark">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-code"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Masthead Subheading-->
+            <p class="masthead-subheading font-weight-dark mb-0">Recent Grad - Programmer - Aspiring Creator </p>
+            <div class="text-center mt-4">
+                <a class="btn btn-xl btn-outline-dark" href="assets/src/RobertConradResume.pdf"
+                    download="Robert_Conrad_Resume.pdf">
+                    <i class="fas fa-download me-2"></i>
+                    Check Out My Resume!
+                </a>
+            </div>
+        </div>
+    </header>
+    <!-- About Section-->
+    <section class="page-section bg-secondary text-white mb-0" id="about">
+        <div class="container">
+            <!-- About Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-graduation-cap"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- About Section Content-->
+            <div class="row">
+                <div class="col-lg-4 ms-5"></div>
+                <p class="lead">
+                    I am a 23 year old recent Computer Engineering graduate and aspiring software developer.
+                    I have had 2 years COOP experience in DevOps and Development at companies working on everything form
+                    software defined radios to Quantum Communication. In my spare time I have been involed in
+                    <a href="https://ieeeuottawa.ca/"> IEEE uOttawa </a> , the Ontario engineering student community
+                    through <a href="https://www.essco.ca/"> ESSCO </a>
+                    and <a href="https://uottahack.ca/"> uOttaHack </a>, uOttawa's first MLH Hackathon.
+                    <br />
+                    <br />
+                    My technical experinece outside my coops has focused on classwork in Android development, embedded
+                    systems (RTOS, Linux etc),
+                    Digital Design and Architecture (VHDL), Networking, Databases, Aritificial Intelligence and
+                    programming fundamentals
+                    including Python, Java, C++, Golang, Data Structures, Algorithms, Concurrecy and software quality
+                    (Git,CI,xUnit etc).
+                    I am predominatly a C++ , Go and Python developer but also have experience in Javaascript, Java and
+                    C#
+                    and am quick to pick up different development stacks.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- Experience Section-->
+    <section class="page-section bg-primary text-white mb-0" id="experience">
+        <div class="container">
+            <!-- About Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase text-white">Experience</h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-briefcase"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- About Section Content-->
 
-    <p>My Resume: LINK</p>
-    <p><em>This website is currently under construction, appologies for the limited CSS formatting</em></p>
-    <h2 id="who-am-i"><strong>Who am I?</strong></h2>
-    <p>I am a 23 year old recent grad from the University of Ottawa studying Computer Engineering with Engineering
-        Management and Entrepreneurship and Coop Options.</p>
-    <p>I am a aspiring software developer with interest in development at all levels from Firmware Embedded to Backend
-        and Applications. I have had nearly 2 years COOP experience in DevOps and development roles at companies ranging
-        from software defined radio to quantum computing. In my spare time I have had a variety of leadership in
-        teamwork roles including organizing the first 2 occurances of uOttawa first MLH Hackathon
-        <strong>uOttaHack</strong> , Chairing the Board of Ontario Engineering Student Societies <strong>ESSCO</strong>
-        and serving roles in my schools and cities branches and societies of <strong>IEEE</strong> including serving
-        ambassador roles at national and international events.
-    </p>
-    <p>My technical experinece outside my coops has focused on classwork in Android development, embedded systems (RTOS,
-        Linux etc), Digital Design and Architecture (VHDL), Networking, Databases, Aritificial Intelligence and
-        programming fundamentals including Python, Java, C++, Golang, Data Structures, Algorithms, Concurrecy and
-        software quality (Git,CI,xUnit etc). I am predominatly a C++ , Go and Python developer but also have experience
-        in Javaascript, Java and C# and am quick to pick up different development stacks.</p>
-    <p>I aim to solve complex and challenging problems in the world regardless of industry but have active interest in
-        <strong>Computer vision</strong>, <strong>computer graphics</strong> and <strong>media creation</strong>
-        (audio\visual data manipulation, streaming, HMI for media consumption etc.) especially those who help the world
-        such as MedTech and Entertainment and exploring interest in <strong>game development, Quantum Computing, VR/AR
-            and web development</strong>. I want to be a lifetime learner and continue to apply myself both technically
-        and creatively. In the future I also aspire to gain further skills in project management and product design to
-        further create opportunities to apply my technical knowledge to new and demanding business and societal problems
-    </p>
-    <p>Please check out my social medias or side projects for more information on what i have done, what im working on
-        and future projects!</p>
-    <hr>
-    <h2 id="work-experience">Work Experience</h2>
-    <h3 id="quantropi-engineering-coop"><strong>Quantropi, Engineering Coop</strong></h3>
-    <ul>
-        <li>DevOps: Developed a QA &amp; CI process for dynamic C++ &amp; Python SDK delivery using CMake and Bash</li>
-        <li>QA: Researched testing automation for randomization and integration using CMake and xUnit frameworks</li>
-    </ul>
-    <h3 id="ciena-software-coop"><strong>Ciena, Software Coop</strong></h3>
-    <ul>
-        <li>Distributed Network Management: Develop logging mechanism in Go for micro service network managementtool,
-            including logging consolidation,export and API configuration</li>
-        <li>Database Debugging: Debug NoSQL database API in Django and Swagger to correct parameter ignored ondatabase
-            requests</li>
-    </ul>
-    <h3 id="pleora-technology-embedded-software-developer-coop"><strong>Pleora Technology, Embedded Software Developer
-            Coop</strong></h3>
-    <ul>
-        <li>Imaging Firmware Bootloader: Created in C++, expanded functionality to recognize new camera
-            specificationswith board boot loader and allow custom GenICam firmware payloads</li>
-        <li>License Manager: Created in C++ and C#. Expanded functionality for internal tooling and created a
-            offlinelicence manager tool to authenticate pre-approved tokens for offline licensing</li>
-    </ul>
-    <h3 id="nordiasoft-moblile-application-developer-coop"><strong>Nordiasoft, Moblile Application Developer
-            (Coop)</strong></h3>
-    <ul>
-        <li>Android: Created Android application from scratch in Java and Kotlin to mimic radio controlled
-            hardwareutilizing a software defined radio for communication and general phone hardware for all other
-            functionality</li>
-    </ul>
-    <h2 id="what-projects-have-i-worked-on"><strong>What Projects have I worked on?</strong></h2>
-    <h3 id="uottawa-roboboat"><strong>uOttawa Roboboat</strong></h3>
-    <p>From 2017 to 2019, I served as a software co-lead, followed by community manager for the University of Ottawa
-        Robotics team Roboboat designing a autonomous surface vehicle (i.e boat) that could compete in a variety of
-        navigation tasks based on image recognition and course navigation. As co-lead for software I designed the
-        architecture for the system and worked to integrate parts of the system using the ROS enviroment and Python and
-        C++. I further aided in implementing XBEE radio modules to communicate between the system computer and ground
-        station using Arduino interfaces and IEEE 802.15.4 communication and the algorithms for gate and cluster
-        navigation of the robot using a modified A* algorithm and a designed deterministic algorithm respectively.</p>
-    <h3 id="capstone-hygeing-healthcare-montior"><strong>Capstone: Hygeing Healthcare Montior</strong></h3>
-    <p>For my capstone project I worked in a team of 5 designing a health managment monitor using Raspberry Pi and a
-        cloud server backend that could monitor the hygeine habits of a individual using a none intrusive sensor array.
-        This project was inspired by consultations with engineers from a local medical centre and were based on needs
-        analysis from the &quot;Emerging Technologies to Support an Aging Population&quot; report by the US National
-        Science &amp; Technology Council with the origional end goal of testing implementation in a model retirement
-        home lab at a local facility. Due to the COVID-19 outbreak, the complete system was changed to focus on home
-        hygeine and implementation techniques were made to allow further sensors for tracking washing hands and other
-        general hygeine requirements. My work in this project included designing the architecture for the local device,
-        development of the REST API and the communication pipeline of data collection, interpretation and distribution
-        to the backend system, as well as a optional sensor for a computer vision to detect when someone was entering a
-        room.</p>
-    <hr>
-    <h3 id="class-projecs">Class Projecs</h3>
-    <h4 id="seg2105-home-hygeine-managment-app">SEG2105: Home hygeine managment app</h4>
-    <p>Mobile application developed in Android Studios (Java) that could list the household tasks needed by a family
-        with task completition indicators and timelines, stored locally in a SQLite database.</p>
-    <h4 id="csi2132-hotel-managment-database">CSI2132: Hotel Managment Database</h4>
-    <p>Created a PostgreSQL Database able to track the room bookings for hotels within multiple chains including
-        employee scheduling, booking and rental details. Adding triggers and database condition and queries to process
-        requests including a minimal command line application to query avalaible rooms.</p>
-    <h4 id="csi2110-paris-metro-route-detection">CSI2110: Paris Metro Route Detection</h4>
-    <p>Given a set of all route connections, in Java screated a graph of the paris metro and determined best paths using
-        dijkstra's algorithm including cases a route is cancelled or changed.</p>
-    <h4 id="ceg3155-tap-tap-fpga">CEG3155: &quot;Tap Tap FPGA&quot;</h4>
-    <p>A FGPA version of the popular &quot;piano tile&quot; mobile games developed in VHDL on a Altera DE-10 board using
-        onboard LED as UI with partial VGA integration.</p>
-    <h4 id="ceg3156-simplified-pipeline-mips-processor">CEG3156: Simplified Pipeline MIPS processor</h4>
-    <p>Three stage project designing a IEEE floating point adder then integrating into a pipelined MIPS processor able
-        to do ALU and floating point instructions with hazard control for pipeline dependancies.</p>
-    <h4 id="ceg3185-router-configuration-and-wireshark-labs">CEG3185: Router Configuration and Wireshark labs</h4>
-    <p>Given a example network, using wireshark, traced various communications and Layer 3/5 and determined certain
-        operations of the server. Created a connection between two networks by configuring the routing table and swithes
-        of the device.</p>
-    <h4 id="adm3313-sage-smart-home-secretary">ADM3313: &quot;Sage&quot;, smart home secretary</h4>
-    <p>Designed a product (in this case a IOT smart assistance like Alexa,Google Home) and created a business plan for
-        hypethetical creation including cost breakdown, market researdch, marketing and sales strategy and general risk
-        analysis.</p>
-    <h4 id="ceg4166-solar-panel-rtos-data-acquisition-system">CEG4166: Solar Panel RTOS Data Acquisition system</h4>
-    <p>Created a RTOS implementation on a Beagleboard that can poll relays mimicing a solar panel grid including time
-        driven data acquisition using a ADC and display to a terminal UI.</p>
-    <h4 id="csi4106-gan-number-recongition">CSI4106: GAN number recongition</h4>
-    <p>Created a Generative Adversarial Network to destinquish different hand written numbers from a public dataset</p>
-    <hr>
-    <h2 id="extra-curricular">Extra Curricular</h2>
-    <h3 id="covid-19-charity-patch"><strong>COVID-19 Charity Patch</strong></h3>
-    <p>As the pandemic began and summer work was unsure, I spent some time looking at my creative side. A student
-        culture that many are unaware is the &quot;Engineering Coveralls&quot; and patch culture that is in many
-        canadien engineering schools. As someone who has used this culture of trading patches as a way to network for
-        the past 4 years, decided I wanted to make a patch that no only was a fun trading item but also did some good.
-    </p>
-    <p>Partnering with the Guelph and uOttawa Engineering Societies, I created the &quot;Don't Touch my PPE&quot; nurses
-        charity patch, based on a old Guelph patch oriented around engineering safety and raised a total of $ 416.75
-        alongside the nearly $500+ donations from Guelph and uOttawa that was given to local food banks, red cross and
-        mental health organizations.</p>
-    <h3 id="movember-2020-drive"><strong>Movember 2020 drive</strong></h3>
-    <p>From the sucess of the covid charity patch, I partnered with the uOttawa Engineering Student Society to create a
-        Movember 2020 campain with a charity patch based on the uOttawa EngSoc mascot &quot;Otis the bunny&quot; as well
-        as collected patches from across Canada for a charity auction. Overall this event raised over $1025 for the
-        Movember Foundation.</p>
-    <h4 id="varia-roles"><strong>Varia Roles</strong></h4>
-    <ul>
-        <li>IEEE uOttawa Treasurer 2018/19, managing an account of ~5K annual expenses including reporting and budgeting
-        </li>
-        <li>IEEE uOttawa Chair 2019/20, leading the branch operations and represent branch at the faculty and IEEE
-            Section level</li>
-        <li>IEEE Ottawa Section Student Representative 2020/21, represent the voice of students in the IEEE Ottawa
-            Section</li>
-        <li>IEEE Canada (Region 7) Ambassador for IEEE Rising Stars 2020, hosted in Las Vegas (Region 6)</li>
-        <li>Logistics team for uOttaHack 1 and 2, uOttawas first MLH Hackathon. Focusing on ordering food and
-            merchandise and day of logistics</li>
-        <li>Former uOttawa Robotics club (Ottabotics) community and business manager, focusing on workshops and getting
-            possible sponsors</li>
-        <li>ESSCO 2020/21 Board Chair and ESSCO 2021 President Meeting Orgnaizing Co-chair</li>
-    </ul>
+            <div class="row">
+                <div class="col-3 my-5">
+                    <img class="rounded w-100 " src="assets\img\experience\quantropi.jpg" alt="..." />
+                </div>
+                <div class="col-9 my-5">
+                    <h2>Quantropi Inc, Engineering Intern</h2>
+                    <p class="lead">May 2020 - December 2020</p>
+                    <br />
+                    <ul class="lead">
+                        <li><b>DevOps</b>: Developed a QA & CI process for dynamic C++ & Python SDK delivery using CMake
+                            and Bash</li>
+                        <li><b>QA</b>: Researched testing automation for randomization and integration using CMake and
+                            xUnit frameworks</li>
+                    </ul>
+                </div>
+                <div class="col"></div>
+            </div>
+            <div class="row">
+                <div class="col-9 my-5">
+                    <h2>Ciena Inc, Software Developer (Coop)</h2>
+                    <p class="lead">May 2020 - December 2020</p>
+                    <br />
+                    <ul class="lead">
+                        <li><b>Distributed Network Management</b>: Develop logging mechanism in Go for micro service
+                            network managementtool, including logging consolidation,export and API configuration
+                        </li>
+                        <li><b>Database Debugging</b>: Debug NoSQL database API in Django and Swagger to correct
+                            parameter ignored ondatabase requests</li>
+                    </ul>
+                </div>
+                <div class="col-3 my-5">
+                    <img class="rounded w-100 " src="assets\img\experience\ciena.png" alt="..." />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3 my-5">
+                    <img class="rounded w-100 " src="assets\img\experience\pleora.png" alt="..." />
+                </div>
+                <div class="col-9 my-5">
+                    <h2>Pleora Technology , Embedded Developer (Coop)</h2>
+                    <p class="lead">May 2020 - December 2020</p>
+                    <br />
+                    <ul class="lead">
+                        <li><b>Imaging Firmware Bootloader</b>: Created in C++, expanded functionality to recognize new
+                            camera specificationswith board boot loader and allow custom GenICam firmware payloads</li>
+                        <li><b>License Manager</b>: Created in C++ and C#. Expanded functionality for internal tooling
+                            and created a offlinelicence manager tool to authenticate pre-approved tokens for offline
+                            licensing</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-9 my-5">
+                    <h2>Nordiasoft Inc, Mobile Developer Coop </h2>
+                    <p class="lead">May 2020 - December 2020</p>
+                    <br />
+                    <ul class="lead">
+                        <li><b>Android</b>: Created Android application from scratch in Java and Kotlin to mimic radio
+                            controlled hardwareutilizing a software defined radio for communication and general phone
+                            hardware for all other functionality</li>
+                    </ul>
+                </div>
+                <div class="col-3 my-5">
+                    <img class="rounded w-100 " src="assets\img\experience\nordiasoft.jpg" alt="..." />
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio Section-->
+    <section class="page-section portfolio" id="projects">
+        <div class="container">
+            <!-- Portfolio Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Projects
+            </h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-terminal"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Portfolio Grid Items-->
+            <div class="row justify-content-center">
+                <!-- Portfolio Item 1-->
+                <div class="col-md-6 col-lg-3 mb-5">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <h4>Digital Systems</h4>
+                                <i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/projects/ceg3155.jpg" alt="..." />
+                    </div>
+                </div>
+                <!-- Portfolio Item 2-->
+                <div class="col-md-6 col-lg-3 mb-5">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <h4>New Venture</h4><i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/projects/adm3313.jpg" alt="..." />
+                    </div>
+                </div>
+                <!-- Portfolio Item 3-->
+                <div class="col-md-6 col-lg-3 mb-5">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <h4>Capstone</h4>
+                                <i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/projects/capstone.jpg" alt="..." />
+                    </div>
+                </div>
+                <!-- Portfolio Item 4-->
+                <div class="col-md-6 col-lg-3 mb-5 ">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <h4>MIPS Processor</h4><i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/projects/ceg3156.jpg" alt="..." />
+                    </div>
+                </div>
+                <!-- Portfolio Item 5-->
+                <div class="col-md-6 col-lg-3 mb-5 ">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <h4>Networking</h4>
+                                <i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/projects/ceg3185.jpg" alt="..." />
+                    </div>
+                </div>
+                <!-- Portfolio Item 6-->
+                <div class="col-md-6 col-lg-3">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <h4>RTOS</h4>
+                                <i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/projects/ceg4166.jpg" alt="..." />
+                    </div>
+                </div>
+                <!-- Portfolio Item 7-->
+                <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal7">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <h4>Algorithms</h4>
+                                <i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/projects/csi2110.jpg" alt="..." />
+                    </div>
+                </div>
+                <!-- Portfolio Item 8-->
+                <div class="col-md-6 col-lg-3 mb-5 mb-md-0">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal8">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <h4>Database</h4><i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/projects/csi2132.jpg" alt="..." />
+                    </div>
+                </div>
+                <!-- Portfolio Item 9-->
+                <div class="col-md-6 col-lg-3">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal9">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <h4>Artificial Intelligence</h4>
+                                <i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/projects/csi4106.jpg" alt="..." />
+                    </div>
+                </div>
+                <!-- Portfolio Item 10-->
+                <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal10">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <h4> Robotics </h4>
+                                <i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/projects/roboboat.jpg" alt="..." />
+                    </div>
+                </div>
+                <!-- Portfolio Item 11-->
+                <div class="col-md-6 col-lg-3 mb-5 mb-md-0">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal11">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <h4>Mobile Application</h4>
+                                <i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/projects/seg2106.jpg" alt="..." />
+                    </div>
+                </div>
+                <!-- Portfolio Item 12-->
+                <div class="col-md-6 col-lg-3">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal12">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <h4>Website</h4>
+                                <i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/projects/bootstrap.jpg" alt="..." />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Skills Section-->
+    <section class="page-section bg-secondary text-white mb-0" id="skills">
+        <div class="container">
+            <!-- About Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase text-white">Skills</h2>
+            <!-- Icon Divider-->
+            <table class="table  text-white">
+                <thead>
+                    <tr>
+                        <th class="lead">Category</th>
+                        <th class="lead">Main</th>
+                        <th class="lead">Secondary</th>
+                        <th class="lead">Familiar</th>
+                    </tr>
+                </thead>
+                <tbody text-white>
+                    <tr>
+                        <td>Programming</td>
+                        <td><a href="https://en.wikipedia.org/wiki/C%2B%2B" target="_blank"> <img
+                                    src="images\language\cpp.svg" alt="c++" width="40" height="40" /> </a> <a
+                                href="https://www.gnu.org/software/bash/" target="_blank"> <img
+                                    src="images\language\bash.svg" alt="bash" width="40" height="40" /> </a>
+                            <a href="https://golang.org/" target="_blank"> <img src="images\language\golang.svg"
+                                    alt="golang" width="40" height="40" /> </a> <a href="https://www.python.org/"
+                                target="_blank"> <img src="images\language\python.svg" alt="python" width="40"
+                                    height="40" /> </a> <a href="https://git-scm.com/" target="_blank"> <img
+                                    src="images\tools\git.svg" alt="git" width="40" height="40" /> </a>
+                        </td>
+                        <td><a href="https://www.ssh.com/" target="_blank"> <img src="images\tools\ssh.svg" alt="ssh"
+                                    width="40" height="40" /> </a> <a href="https://webassembly.org/" target="_blank">
+                                <img src="images\frameworks\wasm.png" alt="wasm" width="40" height="40" /> </a> <a
+                                href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank"> <img
+                                    src="images\language\c.svg" alt="c" width="40" height="40" /> </a> <a
+                                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img
+                                    src="images\language\javascript.svg" alt="javascript" width="40" height="40" /> </a>
+                            <a href="https://www.djangoproject.com/" target="_blank"> <img
+                                    src="images\language\django.svg" alt="django" width="40" height="40" /> </a> <a
+                                href="https://en.wikipedia.org/wiki/Java_(programming_language)" target="_blank"> <img
+                                    src="images\language\java.svg" alt="java" width="40" height="40" /> </a>
+                        </td>
+                        <td><a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/" target="_blank">
+                                <img src="images\language\csharp.svg" alt="csharp" width="40" height="40" /> </a> <a
+                                href="https://kotlinlang.org/" target="_blank"> <img src="images\language\kotlin.svg"
+                                    alt="kotlin" width="40" height="40" /> </a> <a href="https://www.rust-lang.org/"
+                                target="_blank"> <img src="images\language\rust.svg" alt="rust" width="40"
+                                    height="40" /> </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Libraries</td>
+                        <td><a href="https://developer.android.com/" target="_blank"> <img
+                                    src="images\frameworks\android.svg" alt="android" width="40" height="40" /> </a> <a
+                                href="https://cmake.org/" target="_blank">
+                                <img src="images\frameworks\cmake.png" alt="cmake" width="40" height="40" /> </a></td>
+                        <td><a href="https://opencv.org/" target="_blank"> <img src="images\frameworks\opencv.svg"
+                                    alt="opencv" width="40" height="40" /> </a> <a href="https://www.ros.org/"
+                                target="_blank"> <img src="images\frameworks\ros.svg" alt="ros" width="40"
+                                    height="40" /> </a><a href="https://www.raspberrypi.org/" target="_blank"> <img
+                                    src="images\frameworks\pi.png" alt="pi" width="40" height="40" /> </a></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>DevOps</td>
+                        <td><a href="https://www.jenkins.io/" target="_blank"> <img src="images\devops\jenkins.svg"
+                                    alt="jenkins" width="40" height="40" /> </a> <a
+                                href="https://www.atlassian.com/software/bamboo" target="_blank"> <img
+                                    src="images\devops\bamboo.png" alt="bamboo" width="40" height="40" /> </a> <a
+                                href="https://www.docker.com/" target="_blank"> <img src="images\devops\docker.svg"
+                                    alt="docker" width="40" height="40" /> </a></td>
+                        <td><a href="https://www.vagrantup.com/" target="_blank"> <img src="images\devops\vagrant.svg"
+                                    alt="vagrant" width="40" height="40" /> </a></td>
+                        <td><a href="https://aws.amazon.com/" target="_blank"> <img src="images\devops\aws.svg"
+                                    alt="aws" width="40" height="40" /> </a> <a
+                                href="https://azure.microsoft.com/en-ca/" target="_blank">
+                                <img src="images\devops\azure.jpg" alt="azure" width="40" height="40" /> </a></td>
+                    </tr>
+                    <tr>
+                        <td>Web Development</td>
+                        <td><a href="https://www.postgresql.org/" target="_blank"> <img
+                                    src="images\database\postgresql.svg" alt="postgresql" width="40" height="40" /> </a>
+                            <a href="https://firebase.google.com/" target="_blank"> <img
+                                    src="images\database\firebase.png" alt="firebase" width="40" height="40" /> </a>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/en-US/docs/Archive/CSS3" target="_blank"> <img
+                                    src="images\language\css3.svg" alt="css3" width="40" height="40" /> </a> <a
+                                href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="_blank">
+                                <img src="images\language\html5.svg" alt="html5" width="40" height="40" /> </a></td>
+                        <td><a href="https://www.mongodb.com/3" target="_blank"> <img src="images\database\mongoDB.svg"
+                                    alt="mongodb" width="40" height="40" /> </a> <a href="https://www.mysql.com/"
+                                target="_blank"> <img src="images\database\mysql.svg" alt="mysql" width="40"
+                                    height="40" />
+                            </a><a href="https://getbootstrap.com/" target="_blank"> <img
+                                    src="images\frameworks\bootstrap.svg" alt="bootstrap" width="40" height="40" /> </a>
+                            <a href="https://kafka.apache.org/" target="_blank"> <img src="images\frameworks\kafka.svg"
+                                    alt="kafka" width="40" height="40" />
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <!-- Hobbies Section-->
+    <section class="page-section portfolio" id="Hobbies">
+        <div class="container">
+            <!-- Portfolio Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Hobbies
+            </h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-music"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Portfolio Grid Items-->
+            <div class="row justify-content-center">
+                <!-- Portfolio Item 1-->
+                <div class="col-md-6 col-lg-3 mb-5">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#hobbiesModal1">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <h4>Charity</h4>
+                                <i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/hobbies/charity.jpg" alt="..." />
+                    </div>
+                </div>
+                <!-- Portfolio Item 2-->
+                <div class="col-md-6 col-lg-3 mb-5">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#hobbiesModal2">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <h4>Movember</h4>
+                                <i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/hobbies/movember.jpg" alt="..." />
+                    </div>
+                </div>
+                 <!-- Portfolio Item 4-->
+                 <div class="col-md-6 col-lg-3 mb-5 ">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#hobbiesModal4">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <h4>Music & Media</h4>
+                                <i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/hobbies/music.jpg" alt="..." />
+                    </div>
+                </div>
+                <!-- Portfolio Item 3-->
+                <div class="col-md-6 col-lg-3 mb-5">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#hobbiesModal3">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <h4>Varia</h4>
+                                <i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/hobbies/ieee.jpg" alt="..." />
 
-    <table>
-        <thead>
-            <tr>
-                <th>Category</th>
-                <th>Main</th>
-                <th>Secondary</th>
-                <th>Familiar</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Programming</td>
-                <td><a href="https://en.wikipedia.org/wiki/C%2B%2B" target="_blank"> <img src="images\language\cpp.svg"
-                            alt="cpp" width="40" height="40" /> </a> <a href="https://www.gnu.org/software/bash/"
-                        target="_blank"> <img src="images\language\bash.svg" alt="bash" width="40" height="40" /> </a>
-                    <a href="https://golang.org/" target="_blank"> <img src="images\language\golang.svg" alt="golang"
-                            width="40" height="40" /> </a> <a href="https://www.python.org/" target="_blank"> <img
-                            src="images\language\python.svg" alt="python" width="40" height="40" /> </a> <a
-                        href="https://git-scm.com/" target="_blank"> <img src="images\tools\git.svg" alt="git"
-                            width="40" height="40" /> </a></td>
-                <td><a href="https://www.ssh.com/" target="_blank"> <img src="images\tools\ssh.svg" alt="ssh" width="40"
-                            height="40" /> </a> <a href="https://webassembly.org/" target="_blank"> <img
-                            src="images\frameworks\wasm.png" alt="wasm" width="40" height="40" /> </a> <a
-                        href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank"> <img
-                            src="images\language\c.svg" alt="c" width="40" height="40" /> </a> <a
-                        href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img
-                            src="images\language\javascript.svg" alt="javascript" width="40" height="40" /> </a> <a
-                        href="https://www.djangoproject.com/" target="_blank"> <img src="images\language\django.svg"
-                            alt="django" width="40" height="40" /> </a> <a
-                        href="https://en.wikipedia.org/wiki/Java_(programming_language)" target="_blank"> <img
-                            src="images\language\java.svg" alt="java" width="40" height="40" /> </a></td>
-                <td><a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/" target="_blank"> <img
-                            src="images\language\csharp.svg" alt="csharp" width="40" height="40" /> </a> <a
-                        href="https://kotlinlang.org/" target="_blank"> <img src="images\language\kotlin.svg"
-                            alt="kotlin" width="40" height="40" /> </a> <a href="https://www.rust-lang.org/"
-                        target="_blank"> <img src="images\language\rust.svg" alt="rust" width="40" height="40" /> </a>
-                </td>
-            </tr>
-            <tr>
-                <td>Libraries</td>
-                <td><a href="https://developer.android.com/" target="_blank"> <img src="images\frameworks\android.svg"
-                            alt="android" width="40" height="40" /> </a> <a href="https://cmake.org/" target="_blank">
-                        <img src="images\frameworks\cmake.png" alt="cmake" width="40" height="40" /> </a></td>
-                <td><a href="https://opencv.org/" target="_blank"> <img src="images\frameworks\opencv.svg" alt="opencv"
-                            width="40" height="40" /> </a> <a href="https://www.ros.org/" target="_blank"> <img
-                            src="images\frameworks\ros.svg" alt="ros" width="40" height="40" /> </a><a
-                        href="https://www.raspberrypi.org/" target="_blank"> <img src="images\frameworks\pi.png"
-                            alt="pi" width="40" height="40" /> </a></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>DevOps</td>
-                <td><a href="https://www.jenkins.io/" target="_blank"> <img src="images\devops\jenkins.svg"
-                            alt="jenkins" width="40" height="40" /> </a> <a
-                        href="https://www.atlassian.com/software/bamboo" target="_blank"> <img
-                            src="images\devops\bamboo.png" alt="bamboo" width="40" height="40" /> </a> <a
-                        href="https://www.docker.com/" target="_blank"> <img src="images\devops\docker.svg" alt="docker"
-                            width="40" height="40" /> </a></td>
-                <td><a href="https://www.vagrantup.com/" target="_blank"> <img src="images\devops\vagrant.svg"
-                            alt="vagrant" width="40" height="40" /> </a></td>
-                <td><a href="https://aws.amazon.com/" target="_blank"> <img src="images\devops\aws.svg" alt="aws"
-                            width="40" height="40" /> </a> <a href="https://azure.microsoft.com/en-ca/" target="_blank">
-                        <img src="images\devops\azure.jpg" alt="azure" width="40" height="40" /> </a></td>
-            </tr>
-            <tr>
-                <td>Web Development</td>
-                <td><a href="https://www.postgresql.org/" target="_blank"> <img src="images\database\postgresql.svg"
-                            alt="postgresql" width="40" height="40" /> </a> <a href="https://firebase.google.com/"
-                        target="_blank"> <img src="images\database\firebase.png" alt="firebase" width="40"
-                            height="40" /> </a></td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Archive/CSS3" target="_blank"> <img
-                            src="images\language\css3.svg" alt="css3" width="40" height="40" /> </a> <a
-                        href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="_blank"> <img
-                            src="images\language\html5.svg" alt="html5" width="40" height="40" /> </a></td>
-                <td><a href="https://www.mongodb.com/3" target="_blank"> <img src="images\database\mongoDB.svg"
-                            alt="mongodb" width="40" height="40" /> </a> <a href="https://www.mysql.com/"
-                        target="_blank"> <img src="images\database\mysql.svg" alt="mysql" width="40" height="40" />
-                    </a><a href="https://getbootstrap.com/" target="_blank"> <img src="images\frameworks\bootstrap.svg"
-                            alt="bootstrap" width="40" height="40" /> </a> <a href="https://kafka.apache.org/"
-                        target="_blank"> <img src="images\frameworks\kafka.svg" alt="kafka" width="40" height="40" />
-                    </a> </td>
-            </tr>
-        </tbody>
-    </table>
+                    </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Footer-->
+    <footer class="footer text-center" id="Contact">
+        <div class="container">
+            <div class="row">
+                <!-- Footer Location-->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                </div>
+                <!-- Footer Social Icons-->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Found Online as @PirateRoberts98 </h4>
+                    <a class="btn btn-outline-light btn-social mx-1" href="mailto:robert.conrad@ieee.org"><i
+                            class="far fa-fw fa-envelope"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/pirateroberts98/"><i
+                            class="fab fa-fw fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/PirateRoberts98"><i class="fab fa-fw fa-github"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="https://twitter.com/PirateRoberts98"><i class="fab fa-fw fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <!-- Copyright Section-->
+    <div class="copyright py-4 text-center text-white">
+        <div class="container">
+            <small>Copyright &copy; robertconrad.me 2021 🏳‍🌈 ♻ 🌎</small>
+            <br />
+            <small>Freelance is a free to use, MIT licensed Bootstrap theme created by
+                <a href="http://startbootstrap.com">Start Bootstrap</a></small>
+        </div>
+    </div>
+    <!-- ================= Portfolio Modals ================= -->
+    <!-- Portfolio Modal 1-->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Digital Systems
+                                </h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4">
+                                    A FGPA version of the popular "piano tile" mobile games developed in VHDL
+                                    on a Altera DE-10 board using onboard LED as UI with partial VGA integration.
+                                </p>
+                                <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 2-->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">"Sage", smart home
+                                    secretary</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4">Designed a product (in this case a IOT smart assistance like
+                                    Alexa,Google Home) and
+                                    created a business plan for hypethetical creation including cost breakdown, market
+                                    researdch, marketing and sales strategy and general risk analysis.
+                                </p>
+                                <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 3-->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Capstone</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4">
+                                    For my capstone project I worked in a team of 5 designing a health managment
+                                    monitor]
+                                    using Raspberry Pi and a cloud server backend that could monitor the hygeine habits
+                                    of a individual
+                                    using a none intrusive sensor array. This project was inspired by consultations with
+                                    engineers
+                                    from a local medical centre and were based on needs analysis from the "Emerging
+                                    Technologies to
+                                    Support an Aging Population" report by the US National Science & Technology Council
+                                    with the
+                                    origional end goal of testing implementation in a model retirement home lab at a
+                                    local facility.
+
+                                </p>
+                                <br />
+                                <p class="mb-4">
+                                    Due to the COVID-19 outbreak, the complete system was changed to focus on home
+                                    hygeine and
+                                    implementation techniques were made to allow further sensors for tracking washing
+                                    hands and
+                                    other general hygeine requirements. My work in this project included designing the
+                                    architecture
+                                    for the local device, development of the REST API and the communication pipeline of
+                                    data collection,
+                                    interpretation and distribution to the backend system, as well as a optional sensor
+                                    for a computer vision
+                                    to detect when someone was entering a room.
+                                </p>
+                                <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 4-->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Simplified Pipeline
+                                    MIPS processor</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4">Three stage project designing a IEEE floating point adder then
+                                    integrating into a pipelined MIPS processor able to do ALU and floating point
+                                    instructions with hazard control for pipeline dependancies.
+                                </p>
+                                <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 5-->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Router
+                                    Configuration and Wireshark labs</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4">Given a example network, using wireshark, traced various communications
+                                    and Layer 3/5 and determined certain operations of the server. Created a connection
+                                    between two networks by configuring the routing table and swithes of the device.
+                                </p>
+                                <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 6-->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Solar Panel RTOS
+                                    Data Acquisition System</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4">Created a RTOS implementation on a Beagleboard that can poll relays
+                                    mimicing a solar panel grid including time driven data acquisition using a ADC and
+                                    display to a terminal UI.
+                                </p>
+                                <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 7-->
+    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" aria-labelledby="portfolioModal7"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Paris Metro Route
+                                    Detection</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4">Given a set of all route connections, in Java screated a graph of the
+                                    paris metro and determined best paths using dijkstra's algorithm including cases a
+                                    route is cancelled or changed.
+                                </p>
+                                <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 8-->
+    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" aria-labelledby="portfolioModal8"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Hotel Managment
+                                    Database</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4">Created a PostgreSQL Database able to track the room bookings for hotels
+                                    within multiple chains including employee scheduling, booking and rental details.
+                                    Adding triggers and database condition and queries to process requests including a
+                                    minimal command line application to query avalaible rooms.
+                                </p>
+                                <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 9-->
+    <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" aria-labelledby="portfolioModal9"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">GAN number
+                                    recongition</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4">
+                                    Created a Generative Adversarial Network to destinquish different hand written
+                                    numbers from a public dataset
 
 
+
+                                </p>
+                                <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 7-->
+    <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" aria-labelledby="portfolioModal10"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">uOttawa Roboboat
+                                </h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4">
+                                    uOttawa Roboboat
+                                    From 2017 to 2019, I served as a software co-lead, followed by community manager for
+                                    the University of Ottawa Robotics team Roboboat designing a autonomous surface
+                                    vehicle (i.e boat) that could compete in a variety of navigation tasks based on
+                                    image recognition and course navigation. As co-lead for software I designed the
+                                    architecture for the system and worked to integrate parts of the system using the
+                                    ROS enviroment and Python and C++.
+                                </p> <br/>
+                                <p class="mb-4"></p>
+                                I further aided in implementing XBEE radio modules to communicate between the system
+                                computer and ground station using Arduino interfaces and IEEE 802.15.4 communication and
+                                the algorithms for gate and cluster navigation of the robot using a modified A*
+                                algorithm and a designed deterministic algorithm respectively.
+                                </p>
+                                <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 8-->
+    <div class="portfolio-modal modal fade" id="portfolioModal11" tabindex="-1" aria-labelledby="portfolioModal11"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Home hygeine managment app</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4">
+                                    Mobile application developed in Android Studios (Java) that could list the household tasks needed by a family with task completition indicators and timelines, stored locally in a SQLite database.
+                                </p>
+                                <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 9-->
+    <div class="portfolio-modal modal fade" id="portfolioModal12" tabindex="-1" aria-labelledby="portfolioModal12"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Portfolio Website</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4">This website was made based on parts of a Bootstrap website 
+                                    including html,css and bootstrap element changes to get the right design for me.
+                                </p>
+                                <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ================= Hobbies Modals ================= -->
+    <!-- Hobbies Modal 1-->
+    <div class="portfolio-modal modal fade" id="hobbiesModal1" tabindex="-1" aria-labelledby="hobbiesModal1"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">COVID-19 Charity Patch</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4">
+                                    As the pandemic began and summer work was unsure, I spent some time looking at my creative side. A student culture that many are unaware is the "Engineering Coveralls" and patch culture that is in many canadien engineering schools. As someone who has used this culture of trading patches as a way to network for the past 4 years, decided I wanted to make a patch that no only was a fun trading item but also did some good.
+                                </p>  <br/> <p class="mb-4">
+Partnering with the Guelph and uOttawa Engineering Societies, I created the "Don't Touch my PPE" nurses charity patch, based on a old Guelph patch oriented around engineering safety and raised a total of $ 416.75 alongside the nearly $500+ donations from Guelph and uOttawa that was given to local food banks, red cross and mental health organizations.
+                                    
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque
+                                    assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam
+                                    velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                                </p>
+                                <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hobbies Modal 2-->
+    <div class="portfolio-modal modal fade" id="hobbiesModal2" tabindex="-1" aria-labelledby="hobbiesModal2"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Movember 2020 Campain</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4">
+                                    From the sucess of the covid charity patch, I partnered with the uOttawa Engineering Student Society to create a Movember 2020 campain with a charity patch based on the uOttawa EngSoc mascot "Otis the bunny" as well as collected patches from across Canada for a charity auction. Overall this event raised over $1025 for the Movember Foundation.
+                                </p>
+                                <br/>
+                                <p class="lead"> To find out more information, or to donate check out <a href="https://ca.movember.com/mospace/14125979">My Movember page</a>   </p>
+                                <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hobbies Modal 3-->
+    <div class="portfolio-modal modal fade" id="hobbiesModal3" tabindex="-1" aria-labelledby="hobbiesModal3"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Varia Roles</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Text-->
+                                <ul>
+                                    <li>IEEE uOttawa Treasurer 2018/19, managing an account of ~5K annual expenses including reporting and budgeting
+                                    </li>
+                                    <li>IEEE uOttawa Chair 2019/20, leading the branch operations and represent branch at the faculty and IEEE
+                                        Section level</li>
+                                    <li>IEEE Ottawa Section Student Representative 2020/21, represent the voice of students in the IEEE Ottawa
+                                        Section</li>
+                                    <li>IEEE Canada (Region 7) Ambassador for IEEE Rising Stars 2020, hosted in Las Vegas (Region 6)</li>
+                                    <li>Logistics team for uOttaHack 1 and 2, uOttawas first MLH Hackathon. Focusing on ordering food and
+                                        merchandise and day of logistics</li>
+                                    <li>Former uOttawa Robotics club (Ottabotics) community and business manager, focusing on workshops and getting
+                                        possible sponsors</li>
+                                    <li>ESSCO 2020/21 Board Chair and ESSCO 2021 President Meeting Orgnaizing Co-chair</li>
+                                </ul>
+                                <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hobbies Modal 4-->
+    <div class="portfolio-modal modal fade" id="hobbiesModal4" tabindex="-1" aria-labelledby="hobbiesModal4"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Music and Media </h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4">
+                                    In my spare time I like to work on music. Before University i played Trumpet, Piano and did vocals, and in my spare time am getting back into these.
+                                    I have expanded my hobby to learn more into the music theory and music creation to learn more on how to use my interest in new exciting ways.
+                                    </p>
+
+                                    <br/>
+                                    <p class="mb-4">
+                                        I also have a growing passion for content creation, notably internet centered creation from classical Youtube\Twitch style content to general social
+                                        media such as AR filters, ARG storytelling and different unique ways to incorperate new technology as a medium for interesting new storytelling. While
+                                        my work isnt public now, I hope to start showcasing my work publically very soon!!
+                                        </p>     
+                                    
+                                <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
